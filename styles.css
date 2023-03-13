@@ -31,12 +31,22 @@ a{
     color:lightblue;
     font-size:20px;
     text-decoration: none;
+    transition: 200ms;
 
 }
 a:visited{
     color:#b48cfa;
 }
 
+a:hover{
+    color: white;
+    font-size: 24px;
+    transition: 200ms;
+    position: static;
+    padding: 2px 2px 2px 2px;
+}
+
 .links{
     margin-bottom:10px;
 }
+
